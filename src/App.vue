@@ -15,7 +15,6 @@ export default {
     TheNav,
     MainPage,
     TheFooter,
-
   },
 
   data: () => ({

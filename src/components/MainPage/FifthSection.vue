@@ -2,7 +2,7 @@
   <div
     class="max-w-6xl bg-gradient-to-r from-purple-500 to-blue-500 mx-auto py-10 px-8 mb-28 rounded-xl"
   >
-    <div class="flex flex-col justify-center items-center space-y-10 text-white">
+    <div class="flex flex-col justify-center items-center space-y-10 text-white text-center">
       <span class="text-gray-200"> Have a project in mind? </span>
       <span class="text-5xl"> Let’s create something awesome. </span>
 

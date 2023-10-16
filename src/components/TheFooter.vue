@@ -1,16 +1,16 @@
 <template>
   <div
-    class="py-8 flex flex-row justify-between max-w-6xl mx-auto items-center"
+    class="py-8 px-16 flex flex-row justify-between max-w-6xl mx-auto items-center"
   >
     <ul class="flex flex-row space-x-12 text-gray-300 items-center">
       <li class="hover:text-white">
         <img src="../icons/footer-logo.png" alt="" />
       </li>
-      <li class="hover:text-white">About</li>
-      <li class="hover:text-white">FAQ</li>
-      <li class="hover:text-white">Brand assets</li>
-      <li class="hover:text-white">dYdX foundation</li>
-      <li class="hover:text-white">dYdX trading</li>
+      <li class="hover:text-white"  v-if="this.width>=1280">About</li>
+      <li class="hover:text-white"  v-if="this.width>=1280">FAQ</li>
+      <li class="hover:text-white"  v-if="this.width>=1280">Brand assets</li>
+      <li class="hover:text-white"  v-if="this.width>=1280">dYdX foundation</li>
+      <li class="hover:text-white"  v-if="this.width>=1280">dYdX trading</li>
     </ul>
 
     <div class="flex flex-row space-x-8">
@@ -34,3 +34,13 @@ img {
   cursor: pointer;
 }
 </style>
+
+<script>
+export default{
+  data(){
+    return{
+      width: window.innerWidth,
+    }
+  }
+}
+</script>

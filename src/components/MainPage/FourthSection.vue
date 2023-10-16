@@ -7,43 +7,47 @@
     </span>
   </div>
 
-  <div class="max-w-6xl mb-40 mx-auto flex flex-row space-x-16">
-    <div
-      class="card max-w-sm main-page_text flex  flex-col text-white py-8 px-8 rounded-xl space-y-6"
-    >
-      <span>1</span>
-      <span>Apply</span>
-      <span class="text-xl">
-        Submit a complete application to the dYdX Grants Team including as many
-        details as possible about the proposed idea and their background.
-      </span>
-      <div class="h-20"></div>
-    </div>
+    <div class="max-w-6xl mb-40 mx-auto flex lg:flex-row 
+    flex-col 
+    items-center
+    space-y-16
+    lg:space-x-16">
+      <div
+        class="card max-w-sm main-page_text flex flex-col text-white py-8 px-8 rounded-xl space-y-6"
+      >
+        <span>1</span>
+        <span>Apply</span>
+        <span class="text-xl">
+          Submit a complete application to the dYdX Grants Team including as
+          many details as possible about the proposed idea and their background.
+        </span>
+        <div class="h-20"></div>
+      </div>
 
-    <div
-      class="card max-w-sm main-page_text flex flex-col rotate-6 text-white py-8 px-8 rounded-xl space-y-6"
-    >
-      <span>2</span>
-      <span> Apply</span>
-      <span class="text-xl">
-        Submit a complete application to the dYdX Grants Team including as many
-        details as possible about the proposed idea and their background.
-      </span>
-      <div class="h-20"></div>
-    </div>
+      <div
+        class="card max-w-sm main-page_text flex flex-col rotate-6 text-white py-8 px-8 rounded-xl space-y-6"
+      >
+        <span>2</span>
+        <span> Apply</span>
+        <span class="text-xl">
+          Submit a complete application to the dYdX Grants Team including as
+          many details as possible about the proposed idea and their background.
+        </span>
+        <div class="h-20"></div>
+      </div>
 
-    <div
-      class="card max-w-sm main-page_text flex flex-col -rotate-6  text-white py-8 px-8 rounded-xl space-y-6"
-    >
-      <span>3</span>
-      <span>Apply</span>
-      <span class="text-xl">
-        Submit a complete application to the dYdX Grants Team including as many
-        details as possible about the proposed idea and their background.
-      </span>
-      <div class="h-20"></div>
+      <div
+        class="card max-w-sm main-page_text flex flex-col -rotate-6 text-white py-8 px-8 rounded-xl space-y-6"
+      >
+        <span>3</span>
+        <span>Apply</span>
+        <span class="text-xl">
+          Submit a complete application to the dYdX Grants Team including as
+          many details as possible about the proposed idea and their background.
+        </span>
+        <div class="h-20"></div>
+      </div>
     </div>
-  </div>
 </template>
 
 <style scoped>

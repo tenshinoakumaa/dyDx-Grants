@@ -14,7 +14,4 @@
       <img src="../../svg/right_arrow.svg" alt="" />
     </div>
   </div>
- 
-
-
 </template>

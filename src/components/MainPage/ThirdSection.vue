@@ -15,8 +15,10 @@
       </div>
       <div class="h-24"></div>
 
-      <div class="flex flex-row space-x-12">
-        <div style="background: #393953" class="rounded-xl max-w-2xl w-full">
+      <div class="flex lg:flex-row lg:space-x-12 lg:space-y-0
+        flex-col space-y-12 items-center
+      ">
+        <div style="background: #393953" class="rounded-xl max-w-2xl lg:w-full">
           <img src="../../img/image-block-1.png" alt="" />
           <div class="py-6 px-8 text-left flex flex-col justify-center">
             <div class="flex flex-col space-y-2 mb-20">
@@ -31,7 +33,7 @@
           </div>
         </div>
 
-        <div style="background: #393953" class="rounded-xl max-w-2xl w-full">
+        <div style="background: #393953" class="rounded-xl max-w-2xl lg:w-full">
           <img src="../../img/image-block-2.png" alt="" />
           <div class="py-6 px-8 text-left flex flex-col justify-center">
             <div class="flex flex-col space-y-2 mb-20">

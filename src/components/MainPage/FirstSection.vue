@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="pt-28">
     <div class="max-w-3xl text-center text-white mx-auto">
       <div class="text-7xl main-page_main-text mb-8">
         Powering the future of dYdX through community grants
@@ -30,7 +30,11 @@
         </button>
       </div>
       <div class="flex justify-center flex-col">
-        <ul class="flex flex-row space-x-28 text-center mx-auto main-page_text mb-28">
+        <ul class="flex lg:flex-row lg:space-x-28 text-center mx-auto main-page_text mb-28 
+          flex-col
+          lg:space-y-0
+          space-y-14
+        ">
           <li>
             <span>100+</span> <br />
             <span>projects funded</span>
