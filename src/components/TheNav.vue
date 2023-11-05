@@ -16,33 +16,45 @@
           >Discover initiatives</router-link
         >
       </li>
-      <li class="hover:text-gray-50">Funded grants</li>
-      <li class="hover:text-gray-50">Program expenses</li>
-      <li class="hover:text-gray-50">Blog</li>
-      <li class="hover:text-gray-50">FAQ</li>
+      <li class="hover:text-gray-50">
+        <router-link to="/funded-grants">Funded grants</router-link>
+      </li>
+      <li class="hover:text-gray-50">
+        <router-link to="/program-expenses">Program expenses</router-link>
+      </li>
+      <li class="hover:text-gray-50">
+        <router-link to="/blog">Blog</router-link>
+      </li>
+      <li class="hover:text-gray-50">
+        <router-link to="/FAQ">FAQ</router-link>
+      </li>
       <li class="text-white">
-        <button
-          class="bg-gradient-to-r from-purple-500 to-blue-500 py-4 px-6 rounded-md hover:from-purple-700 hover:to-blue-700"
-        >
-          Apply for grant
-        </button>
+        <router-link to="/apply-for-grant">
+          <button
+            class="bg-gradient-to-r from-purple-500 to-blue-500 py-4 px-6 rounded-md hover:from-purple-700 hover:to-blue-700"
+          >
+            Apply for grant
+          </button>
+        </router-link>
       </li>
     </ul>
   </nav>
 
-  <nav v-else class="flex flex-row items-center justify-between px-16 py-4">
-    <div>
+  <nav v-else class="flex flex-row items-center justify-around sm:justify-between px-16 py-4">
+    <div v-if="this.width >= 468">
       <router-link to="/"
         ><img class="cursor:pointer" src="../icons/dydx-logo.png" alt="logo"
       /></router-link>
     </div>
 
     <div class="flex flex-row items-center space-x-16">
-      <button
-        class="bg-gradient-to-r text-white from-purple-500 to-blue-500 py-2 px-4 rounded-md hover:from-purple-700 hover:to-blue-700"
-      >
-        Apply for grant
-      </button>
+      <router-link to="apply-for-grant">
+        <button
+          class="bg-gradient-to-r text-white from-purple-500 to-blue-500 py-2 px-4 rounded-md hover:from-purple-700 hover:to-blue-700"
+        >
+          Apply for grant
+        </button>
+      </router-link>
       <div class="flex flex-col space-y-1 cursor-pointer">
         <div
           class="flex flex-col space-y-1 cursor-pointer"
@@ -63,10 +75,16 @@
     <li class="hover:text-gray-50">
       <router-link to="/discover-initiatives">Discover initiatives</router-link>
     </li>
-    <li class="hover:text-gray-50">Funded grants</li>
-    <li class="hover:text-gray-50">Program expenses</li>
-    <li class="hover:text-gray-50">Blog</li>
-    <li class="hover:text-gray-50">FAQ</li>
+    <li class="hover:text-gray-50">
+      <router-link to="/funded-grants">Funded grants</router-link>
+    </li>
+    <li class="hover:text-gray-50">
+      <router-link to="program-expenses">Program expenses</router-link>
+    </li>
+    <li class="hover:text-gray-50">
+      <router-link to="blog">Blog</router-link>
+    </li>
+    <li class="hover:text-gray-50"><router-link to="FAQ">FAQ</router-link></li>
   </ul>
 </template>
 
@@ -83,8 +101,8 @@
 }
 
 .show {
-  max-height: 500px; /* Высота для анимации появления */
-  transition: max-height 0.5s ease; /* Длительность и функция анимации */
+  max-height: 500px;
+  transition: max-height 0.5s ease;
   overflow: hidden;
   opacity: 1;
 }

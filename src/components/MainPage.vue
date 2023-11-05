@@ -5,8 +5,6 @@
   <third-section></third-section>
   <the-accordion></the-accordion>
   <fourth-section></fourth-section>
-  <fifth-section></fifth-section>
-  <the-footer></the-footer>
 </template>
 
 <script>
@@ -16,7 +14,6 @@ import TheSlider from "./MainPage/TheSlider.vue";
 import ThirdSection from "./MainPage/ThirdSection.vue";
 import TheAccordion from './MainPage/TheAccordion.vue';
 import FourthSection from "./MainPage/FourthSection.vue";
-import FifthSection from "./MainPage/FifthSection.vue"
 
 export default {
   components: {
@@ -26,7 +23,6 @@ export default {
     ThirdSection,
     TheAccordion,
     FourthSection,
-    FifthSection,
   },
 };
 </script>

@@ -6,14 +6,12 @@
 
 <script>
 import TheNav from './components/TheNav.vue'
-import MainPage from './components/MainPage.vue';
 import TheFooter from './components/TheFooter.vue';
 
 export default {
   name: 'App',
   components: {
     TheNav,
-    MainPage,
     TheFooter,
   },
 

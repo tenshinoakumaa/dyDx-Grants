@@ -15,9 +15,9 @@
       </div>
       <div class="h-24"></div>
 
-      <div class="flex lg:flex-row lg:space-x-12 lg:space-y-0
-        flex-col space-y-12 items-center
-      ">
+      <div
+        class="flex lg:flex-row lg:space-x-12 lg:space-y-0 flex-col space-y-12 items-center"
+      >
         <div style="background: #393953" class="rounded-xl max-w-2xl lg:w-full">
           <img src="../../img/image-block-1.png" alt="" />
           <div class="py-6 px-8 text-left flex flex-col justify-center">
@@ -60,3 +60,7 @@
   line-height: 24px;
 }
 </style>
+
+<script>
+
+</script>

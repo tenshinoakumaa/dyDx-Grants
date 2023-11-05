@@ -31,10 +31,12 @@
             <span class="text-gray-400">
               {{ item.secondText }}
             </span>
-            <span class="text-gray-400">Funding amount: {{ item.fundingAmount }}</span>
+            <span class="text-gray-400"
+              >Funding amount: {{ item.fundingAmount }}</span
+            >
           </div>
-          <div >
-            <div :class="item.type + ' '  + defaultClass">
+          <div>
+            <div :class="item.type + ' ' + defaultClass">
               {{ item.type }}
             </div>
           </div>
@@ -133,7 +135,7 @@ export default {
 </script>
 
 <style scoped>
-.text{
+.text {
   font-family: Circular Std;
   letter-spacing: -0.019em;
 }
